@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.IO;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Json;
@@ -20,7 +21,8 @@ namespace Exam_Ref_70_483.Chapter4ImplementDataAccess.Objective4._4SerializeaAnd
 				ser.WriteObject(stream, p);
 				stream.Position = 0;
 				var streamReader = new StreamReader(stream);
-				Console.WriteLine(streamReader.ReadToEnd()); // Displays {“Id”:1,”Name”:”John Doe”}
+				//Console.WriteLine(streamReader.ReadToEnd()); // Displays {“Id”:1,”Name”:”John Doe”}
+				Debug.WriteLine(streamReader.ReadToEnd()); // Displays {“Id”:1,”Name”:”John Doe”}
 				stream.Position = 0;
 				var result = (Person) ser.ReadObject(stream);
 			}
