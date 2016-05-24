@@ -44,6 +44,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chapter1ManageProgramFlow\Objective1.3ImplementProgramFlow\CodeBlockAndScoping.cs" />
+    <Compile Include="Chapter1ManageProgramFlow\Objective1.3ImplementProgramFlow\NullCohesingOperator.cs" />
+    <Compile Include="Chapter1ManageProgramFlow\Objective1.3ImplementProgramFlow\UsingOrOperator.cs" />
+    <Compile Include="Chapter1ManageProgramFlow\Objective1.3ImplementProgramFlow\UsingSwitchWithLabel.cs" />
     <Compile Include="Chapter4ImplementDataAccess\Objective4.4SerializeaAndDeserializeData\UsingJsonSerializer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -51,6 +55,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
