@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="Chapter1ManageProgramFlow\Objective1.3ImplementProgramFlow\CodeBlockAndScoping.cs" />
     <Compile Include="Chapter1ManageProgramFlow\Objective1.3ImplementProgramFlow\NullCohesingOperator.cs" />
+    <Compile Include="Chapter1ManageProgramFlow\Objective1.3ImplementProgramFlow\UsingGoto.cs" />
     <Compile Include="Chapter1ManageProgramFlow\Objective1.3ImplementProgramFlow\UsingOrOperator.cs" />
     <Compile Include="Chapter1ManageProgramFlow\Objective1.3ImplementProgramFlow\UsingSwitchWithLabel.cs" />
     <Compile Include="Chapter4ImplementDataAccess\Objective4.4SerializeaAndDeserializeData\UsingJsonSerializer.cs" />
