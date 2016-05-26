@@ -52,6 +52,7 @@
     <Compile Include="Chapter4ImplementDataAccess\Objective4.4SerializeaAndDeserializeData\UsingJsonSerializer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TypeExecutor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
