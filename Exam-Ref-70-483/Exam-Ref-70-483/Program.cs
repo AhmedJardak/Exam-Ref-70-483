@@ -1,5 +1,6 @@
 ﻿using System;
 using Exam_Ref_70_483.Chapter1ManageProgramFlow.Objective1._3ImplementProgramFlow;
+using Exam_Ref_70_483.Chapter1ManageProgramFlow.Objective1._4CreateAndImplementEvents;
 using Exam_Ref_70_483.Chapter4ImplementDataAccess.Objective4._4SerializeaAndDeserializeData;
 
 namespace Exam_Ref_70_483
@@ -15,7 +16,12 @@ namespace Exam_Ref_70_483
 				typeof(CodeBlockAndScoping),
 				typeof(NullCohesingOperator),
 				typeof(UsingSwitchWithLabel),
-				typeof(UsingGoto)
+				typeof(UsingGoto),
+				typeof(UsingDelegates),
+				typeof(UsingMultiCastDelegates),
+				typeof(UsingCovarianceWithDelegates),
+				typeof(UsingContraVarianceWithDelegates),
+				typeof(UsingLambdaExpressions),
 			};
 			new TypeExecutor(types).Execute();
 			Console.Read();

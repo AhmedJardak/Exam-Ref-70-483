@@ -7,9 +7,10 @@ namespace Exam_Ref_70_483.Chapter1ManageProgramFlow.Objective1._3ImplementProgra
 		public static void Execute()
 		{
 			var b = true;
-				var r = 42;
+			var r = 42;
 			if (b)
 			{
+				//var r = 42;
 				b = false;
 			}
 			// r is not accessible

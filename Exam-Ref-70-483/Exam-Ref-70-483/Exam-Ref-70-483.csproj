@@ -49,6 +49,12 @@
     <Compile Include="Chapter1ManageProgramFlow\Objective1.3ImplementProgramFlow\UsingGoto.cs" />
     <Compile Include="Chapter1ManageProgramFlow\Objective1.3ImplementProgramFlow\UsingOrOperator.cs" />
     <Compile Include="Chapter1ManageProgramFlow\Objective1.3ImplementProgramFlow\UsingSwitchWithLabel.cs" />
+    <Compile Include="Chapter1ManageProgramFlow\Objective1.4CreateAndImplementEvents\UsingActionDelegates.cs" />
+    <Compile Include="Chapter1ManageProgramFlow\Objective1.4CreateAndImplementEvents\UsingContraVarianceWithDelegates.cs" />
+    <Compile Include="Chapter1ManageProgramFlow\Objective1.4CreateAndImplementEvents\UsingCovarianceWithDelegates.cs" />
+    <Compile Include="Chapter1ManageProgramFlow\Objective1.4CreateAndImplementEvents\UsingDelegates.cs" />
+    <Compile Include="Chapter1ManageProgramFlow\Objective1.4CreateAndImplementEvents\UsingLambdaExpressions.cs" />
+    <Compile Include="Chapter1ManageProgramFlow\Objective1.4CreateAndImplementEvents\UsingMultiCastDelegates.cs" />
     <Compile Include="Chapter4ImplementDataAccess\Objective4.4SerializeaAndDeserializeData\UsingJsonSerializer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
