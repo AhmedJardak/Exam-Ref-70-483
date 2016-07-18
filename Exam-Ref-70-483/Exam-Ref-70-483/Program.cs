@@ -1,6 +1,7 @@
 ﻿using System;
 using Exam_Ref_70_483.Chapter1ManageProgramFlow.Objective1._3ImplementProgramFlow;
 using Exam_Ref_70_483.Chapter1ManageProgramFlow.Objective1._4CreateAndImplementEvents;
+using Exam_Ref_70_483.Chapter1ManageProgramFlow.Objective1._5ImplementExceptionHandling;
 using Exam_Ref_70_483.Chapter4ImplementDataAccess.Objective4._4SerializeaAndDeserializeData;
 
 namespace Exam_Ref_70_483
@@ -22,8 +23,14 @@ namespace Exam_Ref_70_483
 				typeof(UsingCovarianceWithDelegates),
 				typeof(UsingContraVarianceWithDelegates),
 				typeof(UsingLambdaExpressions),
+         // typeof(UsingEnvironmentFailFast),
+			//	typeof(UsingExceptionHandling),
+			//	typeof(UsingExceptionData),
+				typeof(UsingExceptionDispatchInfoThrow),
+
 			};
 			new TypeExecutor(types).Execute();
+			Console.WriteLine("--------------------Finish------------------");
 			Console.Read();
 		}
 	}
