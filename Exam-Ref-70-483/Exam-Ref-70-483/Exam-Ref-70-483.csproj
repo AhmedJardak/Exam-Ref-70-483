@@ -74,7 +74,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Chapter2CreateAndUseType\Objective2.1Createtypes\" />
+    <Folder Include="Chapter2CreateAndUseType\Objective2.2Consumetypes\" />
+    <Folder Include="Chapter2CreateAndUseType\Objective2.3Enforceencapsulation\" />
+    <Folder Include="Chapter2CreateAndUseType\Objective2.4CreateAndImplementClassHierarchy\" />
+    <Folder Include="Chapter2CreateAndUseType\Objective2.5FindExecuteAndCreateTypesAtRuntimeByUsingReflection\" />
+    <Folder Include="Chapter2CreateAndUseType\Objective2.6ManageTheObjectLifeCycle\" />
+    <Folder Include="Chapter2CreateAndUseType\Objective2.7ManipulateStrings\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
