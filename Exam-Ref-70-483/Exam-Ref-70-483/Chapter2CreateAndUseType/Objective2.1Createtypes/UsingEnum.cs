@@ -14,6 +14,7 @@ namespace Exam_Ref_70_483.Chapter2CreateAndUseType.Objective2._1Createtypes
 			FlaggedDays readingDays = FlaggedDays.Monday | FlaggedDays.Saturday;
 			Console.WriteLine("Value of reading Days:" + readingDays);
 		}
+
 		[Flags]
 		enum FlaggedDays
 		{
