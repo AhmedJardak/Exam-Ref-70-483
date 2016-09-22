@@ -66,6 +66,7 @@
     <Compile Include="Chapter1ManageProgramFlow\Objective1.5ImplementExceptionHandling\UsingExceptionData.cs" />
     <Compile Include="Chapter1ManageProgramFlow\Objective1.5ImplementExceptionHandling\UsingExceptionDispatchInfoThrow.cs" />
     <Compile Include="Chapter1ManageProgramFlow\Objective1.5ImplementExceptionHandling\UsingExceptionHandling.cs" />
+    <Compile Include="Chapter2CreateAndUseType\Objective2.1Createtypes\UsingEnum.cs" />
     <Compile Include="Chapter4ImplementDataAccess\Objective4.4SerializeaAndDeserializeData\UsingJsonSerializer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -74,7 +75,14 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Chapter2CreateAndUseType\Objective2.2Consumetypes\" />
+    <Folder Include="Chapter2CreateAndUseType\Objective2.3Enforceencapsulation\" />
+    <Folder Include="Chapter2CreateAndUseType\Objective2.4CreateAndImplementClassHierarchy\" />
+    <Folder Include="Chapter2CreateAndUseType\Objective2.5FindExecuteAndCreateTypesAtRuntimeByUsingReflection\" />
+    <Folder Include="Chapter2CreateAndUseType\Objective2.6ManageTheObjectLifeCycle\" />
+    <Folder Include="Chapter2CreateAndUseType\Objective2.7ManipulateStrings\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
