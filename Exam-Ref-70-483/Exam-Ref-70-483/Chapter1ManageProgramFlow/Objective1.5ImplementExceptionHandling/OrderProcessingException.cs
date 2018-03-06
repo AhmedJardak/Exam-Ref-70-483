@@ -32,7 +32,7 @@ namespace Exam_Ref_70_483.Chapter1ManageProgramFlow.Objective1._5ImplementExcept
 			OrderId = (int) info.GetValue("OrderId", typeof(int));
 		}
 
-		public int OrderId { get; }
+		public int OrderId { get; set; }
 
 		public void GetObjectData(SerializationInfo info, StreamingContext context)
 		{

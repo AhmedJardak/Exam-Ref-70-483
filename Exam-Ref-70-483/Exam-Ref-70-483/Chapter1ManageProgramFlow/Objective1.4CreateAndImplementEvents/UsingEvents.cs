@@ -8,7 +8,10 @@ namespace Exam_Ref_70_483.Chapter1ManageProgramFlow.Objective1._4CreateAndImplem
 
 		public void Raise()
 		{
-			OnChange?.Invoke();
+            if (OnChange != null)
+            {
+                OnChange.Invoke();
+            }
 		}
 	
 	}
