@@ -18,7 +18,11 @@ namespace Exam_Ref_70_483
 			//Chapter 1	
               //  typeof(CreatingAThread),
 			 //   typeof(UsingAbackgroundThread),
-                typeof(UsingParameterizedThreadStart),
+             //   typeof(UsingParameterizedThreadStart),
+              //  typeof(StoppingAThread),
+               // typeof(UsingThreadStaticAttribute),
+               // typeof(UsingThreadLocal),
+                typeof(QueuingSomeWorkToTheThreadPool)
 			//	typeof(UsingOrOperator),
 			//	typeof(CodeBlockAndScoping),
 			//	typeof(NullCohesingOperator),
@@ -42,7 +46,7 @@ namespace Exam_Ref_70_483
 			new TypeExecutor(types).Execute();
             //Console.WriteLine(string.Format(new DateTimeFormatInfo(), "Temprature at {0:hh:mm tt} on {0:MM/dd/yyyy} is {1:N2}", DateTime.Now, 45.98555));     
             Console.WriteLine("--------------------Finish------------------");
-			//Console.Read();
+			Console.Read();
 		}
 	}
 }

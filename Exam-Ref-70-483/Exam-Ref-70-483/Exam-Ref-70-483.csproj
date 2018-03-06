@@ -63,8 +63,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\CreatingAThread.cs" />
+    <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\QueuingSomeWorkToTheThreadPool.cs" />
+    <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\StoppingAThread.cs" />
     <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\UsingAbackgroundThread.cs" />
     <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\UsingParameterizedThreadStart.cs" />
+    <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\UsingThreadLocal.cs" />
+    <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\UsingThreadStaticAttribute.cs" />
     <Compile Include="Chapter1ManageProgramFlow\Objective1.3ImplementProgramFlow\CodeBlockAndScoping.cs" />
     <Compile Include="Chapter1ManageProgramFlow\Objective1.3ImplementProgramFlow\NullCohesingOperator.cs" />
     <Compile Include="Chapter1ManageProgramFlow\Objective1.3ImplementProgramFlow\UsingGoto.cs" />
