@@ -62,10 +62,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\AddingAContinuation.cs" />
     <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\CreatingAThread.cs" />
+    <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\LISTING 1-12AttachingChildTasksToAParentTask.cs" />
+    <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\LISTING 1-17UsingParallelBreak.cs" />
+    <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\LISTING1-11SchedulingDifferentContinuationTasks.cs" />
+    <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\LISTING1-13UsingATaskFactory.cs" />
+    <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\LISTING1-15UsingTaskWaitAny.cs" />
+    <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\LISTING1-18asyncAndAwait.cs" />
     <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\QueuingSomeWorkToTheThreadPool.cs" />
+    <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\StartingANewTask.cs" />
     <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\StoppingAThread.cs" />
     <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\UsingAbackgroundThread.cs" />
+    <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\UsingATaskThatReturnsAValue.cs" />
     <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\UsingParameterizedThreadStart.cs" />
     <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\UsingThreadLocal.cs" />
     <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\UsingThreadStaticAttribute.cs" />
@@ -101,6 +110,8 @@
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
+    <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\LISTING1-14UsingTask.WaitAll.cs" />
+    <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\LISTING1-16Using ParallelForAndParallelForeach.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Chapter2CreateAndUseType\Objective2.2Consumetypes\" />

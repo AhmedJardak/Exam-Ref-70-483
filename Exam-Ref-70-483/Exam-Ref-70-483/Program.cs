@@ -22,7 +22,17 @@ namespace Exam_Ref_70_483
               //  typeof(StoppingAThread),
                // typeof(UsingThreadStaticAttribute),
                // typeof(UsingThreadLocal),
-                typeof(QueuingSomeWorkToTheThreadPool)
+               // typeof(QueuingSomeWorkToTheThreadPool),
+               // typeof(StartingANewTask),
+			//    typeof(UsingATaskThatReturnsAValue),
+			  //  typeof(Listing111SchedulingDifferentContinuationTasks),
+             //   typeof(Listing112AttachingChildTasksToAParentTask),
+				//typeof(LISTING1_13UsingATaskFactory),
+				//typeof(Listing114UsingTaskWaitAll),
+			//	typeof(LISTING1_15UsingTaskWaitAny),
+			//	typeof(Listing116UsingParallel),
+			//typeof(Listing117UsingParallelBreak),
+				typeof(LISTING1_18asyncAndAwait)
 			//	typeof(UsingOrOperator),
 			//	typeof(CodeBlockAndScoping),
 			//	typeof(NullCohesingOperator),
