@@ -32,7 +32,14 @@ namespace Exam_Ref_70_483
 			//	typeof(LISTING1_15UsingTaskWaitAny),
 			//	typeof(Listing116UsingParallel),
 			//typeof(Listing117UsingParallelBreak),
-				typeof(LISTING1_18asyncAndAwait)
+			//	typeof(LISTING1_18asyncAndAwait),
+				//typeof(Listing120UsingConfigureAwait),
+				//typeof(LISTING_1_21ContinuingOnATreadPoolInsteadUIThead),
+				//typeof(Listing122UsingAsParallel),
+				//typeof(LISTING1_25MakingAParallelQuerySequential),
+				//typeof(LISTING1_26UsingForAll),
+				typeof(LISTING_1_27CatchingAggregateException)
+				//typeof(Listing124OrderedParallelQuery)
 			//	typeof(UsingOrOperator),
 			//	typeof(CodeBlockAndScoping),
 			//	typeof(NullCohesingOperator),

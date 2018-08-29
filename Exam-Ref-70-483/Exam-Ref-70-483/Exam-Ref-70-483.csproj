@@ -66,10 +66,16 @@
     <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\CreatingAThread.cs" />
     <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\LISTING 1-12AttachingChildTasksToAParentTask.cs" />
     <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\LISTING 1-17UsingParallelBreak.cs" />
+    <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\LISTING 1-21ContinuingOnATreadPoolInsteadUIThead.cs" />
+    <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\LISTING 1-27CatchingAggregateException.cs" />
     <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\LISTING1-11SchedulingDifferentContinuationTasks.cs" />
     <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\LISTING1-13UsingATaskFactory.cs" />
     <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\LISTING1-15UsingTaskWaitAny.cs" />
     <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\LISTING1-18asyncAndAwait.cs" />
+    <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\LISTING1-20UsingConfigureAwait.cs" />
+    <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\LISTING1-24OrderedParallelQuery.cs" />
+    <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\LISTING1-25MakingAParallelQuerySequential.cs" />
+    <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\LISTING1-26UsingForAll.cs" />
     <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\QueuingSomeWorkToTheThreadPool.cs" />
     <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\StartingANewTask.cs" />
     <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\StoppingAThread.cs" />
@@ -83,6 +89,7 @@
     <Compile Include="Chapter1ManageProgramFlow\Objective1.3ImplementProgramFlow\UsingGoto.cs" />
     <Compile Include="Chapter1ManageProgramFlow\Objective1.3ImplementProgramFlow\UsingOrOperator.cs" />
     <Compile Include="Chapter1ManageProgramFlow\Objective1.3ImplementProgramFlow\UsingSwitchWithLabel.cs" />
+    <Compile Include="Chapter1ManageProgramFlow\Objective 1.1Implement multithreading\LISTING1-22UsingAsParallel.cs" />
     <Compile Include="Chapter1ManageProgramFlow\Objective1.4CreateAndImplementEvents\UsingActionDelegates.cs" />
     <Compile Include="Chapter1ManageProgramFlow\Objective1.4CreateAndImplementEvents\UsingContraVarianceWithDelegates.cs" />
     <Compile Include="Chapter1ManageProgramFlow\Objective1.4CreateAndImplementEvents\UsingCovarianceWithDelegates.cs" />
